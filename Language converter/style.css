@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", Lalezar, cursive, sans-serif;
-  overflow-y: ;
+  overflow-y: hidden;
 }
 
 body {
@@ -139,10 +139,10 @@ li,
   margin-top: 20px;
   font-size: 1.2rem;
   border-radius: 0.3rem;
-  background: #6320ee;
+  background: hsla(211, 100%, 28%, 1) 100%;
 }
 
-@media (min-width: 660px) {
+@media (max-width: 660px) {
   .container {
     padding: 20px;
   }
@@ -170,6 +170,10 @@ li,
   .controls .exchange {
     font-size: 1.2rem;
   }
+  .select{
+    width: 50%;
+  }
+ 
 }
 @media screen and (max-width: 1250px) {
   .container {
