@@ -161,15 +161,12 @@ async function translateText(text, fromLang, toLang) {
   const response = await translateText(inputText, fromLang, toLang);
   
   const parsedResponse = JSON.parse(response);
-  const detectedLanguageCode = parsedResponse.langDetect;
-  const detectedLanguageName = languages[detectedLanguageCode];
   const translatedText = parsedResponse.translatedText;
 
   // Display detected language and translated text
   const infoContainer = document.querySelector(".to-text");
   infoContainer.innerHTML = `
-    Detected language: ${detectedLanguageName}
-    Translated text: ${translatedText}
+   ${translatedText}
   `;
   });
   
