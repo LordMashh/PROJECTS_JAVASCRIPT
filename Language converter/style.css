@@ -141,6 +141,10 @@ li,
   border-radius: 0.3rem;
   background: hsla(211, 100%, 28%, 1) 100%;
 }
+button:hover{
+  background:  hsla(211, 60%, 28%, 1) 100%;
+  box-shadow: #333;
+}
 
 @media (max-width: 660px) {
   .container {

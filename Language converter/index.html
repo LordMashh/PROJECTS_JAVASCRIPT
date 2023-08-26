@@ -12,6 +12,9 @@
 </head>
 <body>
     <div class="container">
+        <header>
+            <h1>A Language Translator</h1>
+        </header>
         <div class="wrapper">
             <div class="text-input">
                 <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
@@ -19,7 +22,9 @@
                     <li class="row from">
                         <div class="icons">
                            <ion-icon id="from" name="copy-outline"></ion-icon>
+                           <p>From:</p>
                         </div>
+                        
                         <select class="select"></select>
                     </li>
                     <li class="exchange">
@@ -27,6 +32,7 @@
                     <li class="row to">
                         <select class="select"></select>
                         <div class="icons">
+                            <p>To:</p>
                             <ion-icon id="to" name="copy-outline"></ion-icon>
                         </div>
                     </li>
