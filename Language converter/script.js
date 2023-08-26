@@ -201,23 +201,7 @@ async function performTranslation() {
   }
 }
 
-// Attach the performTranslation function to the translate button click event
 translateBtn.addEventListener("click", performTranslation);
-
-// Attach the performTranslation function to the exchangeIcon click event
-exchageIcon.addEventListener("click", () => {
-  let tempText = fromText.value,
-    tempLang = selectTag[0].value;
-  fromText.value = toText.value;
-  toText.value = tempText;
-  selectTag[0].value = selectTag[1].value;
-  selectTag[1].value = tempLang;
-
-  // Call the performTranslation function after exchanging languages
-  performTranslation();
-});
-
-
 
 icons.forEach((icon) => {
   icon.addEventListener("click", ({ target }) => {
