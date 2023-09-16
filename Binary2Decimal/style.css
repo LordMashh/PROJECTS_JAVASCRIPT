@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    
+}
+body {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M533.749686661096 421.0567029564795L678.7158003293374 379.48833877072445 637.1474361435824 234.52222510248308 492.18132247534095 276.0905892882381z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M367.174%2c367.963C417.651%2c366.475%2c465.233%2c343.164%2c490.947%2c299.702C517.135%2c255.438%2c519.568%2c199.625%2c492.724%2c155.755C466.909%2c113.567%2c416.632%2c97.118%2c367.174%2c97.427C318.346%2c97.732%2c271.011%2c116.423%2c244.316%2c157.309C214.871%2c202.406%2c202.952%2c260.864%2c230.086%2c307.389C257.062%2c353.642%2c313.652%2c369.54%2c367.174%2c367.963' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M250.248%2c251.849C291.121%2c253.078%2c325.756%2c224.143%2c345.443%2c188.303C364.363%2c153.859%2c365.217%2c112.342%2c345.573%2c78.306C325.924%2c44.261%2c289.541%2c24.454%2c250.248%2c23.367C208.833%2c22.221%2c164.951%2c36.278%2c145.328%2c72.767C126.419%2c107.929%2c144.293%2c148.416%2c164.475%2c182.863C184.354%2c216.794%2c210.941%2c250.667%2c250.248%2c251.849' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-101.88 487.09 a149.64 149.64 0 1 0 299.28 0 a149.64 149.64 0 1 0 -299.28 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M547.75 293.68 a183.72 183.72 0 1 0 367.44 0 a183.72 183.72 0 1 0 -367.44 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1373.594%2c618.445C1420.163%2c619.825%2c1466.323%2c598.8%2c1489.278%2c558.259C1511.945%2c518.227%2c1503.758%2c469.438%2c1480.41%2c429.799C1457.456%2c390.83%2c1418.765%2c364.114%2c1373.594%2c361.859C1324.018%2c359.384%2c1270.474%2c374.628%2c1246.56%2c418.126C1223.235%2c460.553%2c1243.275%2c510.852%2c1269.204%2c551.739C1292.907%2c589.116%2c1329.354%2c617.134%2c1373.594%2c618.445' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto, 'sans-serif';
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    height: 25rem;
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 1.4rem;
+}
+#binary {
+    height: 1.5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    height: 2rem;
+}
+.row {
+    margin: 1rem;
+    text-align: center;
+}
+.btn {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

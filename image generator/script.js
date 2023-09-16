@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "";
 
 const submitIcon = document.querySelector("#submit-icon");
 const inputElement = document.querySelector("input");
@@ -36,7 +36,7 @@ const getImages = async (event) => {
       imageElement.setAttribute("src", imageObject.url);
       imageContainer.append(imageElement);
       imageSection.append(imageContainer);
-      loader.classList.remove("display")
+      loader.classList.remove("display");
     });
   } catch (error) {
     console.error(error);
