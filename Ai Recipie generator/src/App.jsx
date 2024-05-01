@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  let api = "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"
+
   const openai = new OpenAI({
     apiKey: api,
     dangerouslyAllowBrowser: true ,
